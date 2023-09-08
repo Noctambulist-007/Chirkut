@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tukli" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/light_green_color</item>
+    </style>
+
+    <style name="Theme.Tukli" parent="Base.Theme.Tukli" />
+
+    <style name="ProgressBar">
+        <item name="colorSecondary">@color/light_green_color</item>
+    </style>
+
+    <style name="BottomSheetStyle"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Modal</item>
+
+    </style>
+
+    <style name="Modal"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/delte_sheet</item>
+
+    </style>
+
+</resources>
